@@ -4,10 +4,10 @@ import App from './App.vue'
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faBagShopping } from '@fortawesome/free-solid-svg-icons'
+import { faBagShopping, faIdCard, faUser, faIdBadge } from '@fortawesome/free-solid-svg-icons'
 import './style.css'
 
-library.add(faBagShopping)
+library.add(faBagShopping, faIdCard, faUser, faIdBadge)
 
 const app = createApp(App)
 

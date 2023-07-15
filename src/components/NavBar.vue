@@ -14,5 +14,3 @@ import { routes } from '../utils/constants'
     </li>
   </ul>
 </template>
-
-<style lang="scss" scoped></style>
