@@ -1,5 +1,13 @@
 <script setup>
-import { BannerSection, HeaderSection, NavBar, SliderSection, FeaturesSection } from './components'
+import {
+  BannerSection,
+  HeaderSection,
+  NavBar,
+  SliderSection,
+  FeaturesSection,
+  StatisticsSection,
+  CategoriesSection
+} from './components'
 </script>
 
 <template>
@@ -10,6 +18,10 @@ import { BannerSection, HeaderSection, NavBar, SliderSection, FeaturesSection } 
       <nav-bar />
       <slider-section />
       <features-section />
+    </div>
+    <statistics-section />
+    <div class="px-40">
+      <categories-section />
     </div>
   </div>
 </template>

@@ -32,4 +32,15 @@ const features = [
   }
 ]
 
-export { routes, features }
+const services = [
+  'خدمات انستقرام',
+  'خدمات تويتر',
+  'خدمات يوتيوب',
+  'خدمات تيك توك',
+  'خدمات فيسبوك',
+  'تويتش',
+  'شدات ببجي',
+  'ايتونز'
+]
+
+export { routes, features, services }
