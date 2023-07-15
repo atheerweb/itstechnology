@@ -1,8 +1,5 @@
 <script setup>
-import NavBar from './components/NavBar.vue'
-import HeaderSection from './components/HeaderSection.vue'
-import BannerSection from './components/BannerSection.vue'
-import SliderSection from './components/SliderSection.vue'
+import { BannerSection, HeaderSection, NavBar, SliderSection, FeaturesSection } from './components'
 </script>
 
 <template>
@@ -12,6 +9,7 @@ import SliderSection from './components/SliderSection.vue'
       <header-section />
       <nav-bar />
       <slider-section />
+      <features-section />
     </div>
   </div>
 </template>
